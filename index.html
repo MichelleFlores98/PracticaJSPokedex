@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <script src="pokedex.js" type="text/javascript" defer ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pokedex</h1>
+    <div class="pokedex">
+        <div class="containerA">
+            <div class="sectionTop">
+              <div class="sectionblue"></div>
+                <div class="buttonsTop">
+                   <div class="red"></div>
+                   <div class="yellow"></div>
+                   <div class="green"></div>
+               </div>
+            </div>
+        <div class="containerAPrincipal">
+            <div class="Aprincipal">
+                <div class="principalWhite">
+                    <div class="principalBlack">
+                        <div class="ocultar">
+                            <div class="encabezado">
+                                <form action="" onsubmit="searchPokemon(event)">
+                                    <input type="text" name="pokemon" autocomplete="off">
+                                </form>
+                            </div>
+                            <div dataPokeImg class="screenImg">
+                                <img dataImg class="pokeImg" src="./pokebola.png"  width="159px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="containerControlls">
+                    <div class="controll">
+                    <div class="cnll top"></div>
+                    <div class="cnll left"></div>
+                    <div class="cnll middle"></div>
+                    <div class="cnll right"></div>
+                    <div class="cnll bottom"></div>
+                    </div>
+                    <div class="controllButton">
+                    <div class="button">X</div>
+                    <div class="button">B</div>
+                    </div>
+                </div> 
+                 
+            </div>
+            <div class="containerA_right">
+                <div class="containerA__hinge"></div>
+                <div class="containerA__hinge"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="containerB">
+        <div class="containerBBlack">
+            <div dataPokeCard class="containerBpantalla">
+                <div dataPokeName>Pokedex</div>
+                <div dataPokeId></div>
+                <div dataPokeTypes class="pokeTypes"></div>
+                <div dataPokeStats class="pokeStats"></div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+  
+</body>
+</html>
